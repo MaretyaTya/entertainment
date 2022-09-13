@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class AllController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,6 +14,21 @@ class HomeController extends Controller
     public function home()
     {
         return view('home');
+    }
+
+    public function tentang()
+    {
+        return view('tentang');
+    }
+
+    public function artikel()
+    {
+        return view('artikel');
+    }
+
+    public function index()
+    {
+        //
     }
 
     /**

@@ -25,8 +25,8 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="#hero">BERANDA</a></li>
-          <li><a href="#about">TENTANG KAMI</a></li>
-          <li><a href="#services">ARTIKEL</a></li>
+          <li><a href="/tentang">TENTANG KAMI</a></li>
+          <li><a href="/artikel">ARTIKEL</a></li>
           <li class="dropdown"><a href="#"><span>KATEGORI</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">ACTION</a></li>

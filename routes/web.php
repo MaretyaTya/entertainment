@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AllController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,4 +18,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/home', [HomeController::class, 'home']);
+Route::get('/home', [AllController::class, 'home']);
+Route::get('/tentang', [AllController::class, 'tentang']);
+Route::get('/artikel', [AllController::class, 'artikel']);
