@@ -1,61 +1,91 @@
  <!-- ======= Hero Section ======= -->
  <section id="hero" class="hero">
-    <div class="container position-relative">
-      <div class="row gy-5" data-aos="fade-in">
-        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
-          <h2>Welcome to <span>Impact</span></h2>
-          <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
-          <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-          </div>
-        </div>
-        <div class="col-lg-6 order-1 order-lg-2">
-          <img src="assets/img/hero-img.svg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
-        </div>
-      </div>
-    </div>
+   <div class="container position-relative">
+     <div class="row gy-5" data-aos="fade-in">
+       <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+         <h2>SELAMAT DATANG DI<span>MOVIEKU</span></h2>
+         <p>SELAMAT MENIKMATI:)</p>
+       </div>
+       <div class="col-lg-6 order-1 order-lg-2">
+         <img src="assets/img/icon-film.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+       </div>
+     </div>
+   </div>
+   <!-- End Hero Section -->
 
-    <div class="icon-boxes position-relative">
-      <div class="container position-relative">
-        <div class="row gy-4 mt-5">
+   <!-- ======= Portfolio Section ======= -->
+   <section id="portfolio" class="portfolio sections-bg">
+     <div class="container" data-aos="fade-up">
 
-          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-easel"></i></div>
-              <h4 class="title"><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-            </div>
-          </div>
-          <!--End Icon Box -->
+       <div class="section-header">
+         <h2>FILM SEDANG TAYANG</h2>
+       </div>
 
-          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-gem"></i></div>
-              <h4 class="title"><a href="" class="stretched-link">Sed ut perspiciatis</a></h4>
-            </div>
-          </div>
-          <!--End Icon Box -->
+       <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
+         <div class="row gy-4 portfolio-container">
+           <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+             <div class="portfolio-wrap">
+               <a href="assets/img/kategori/4.jpeg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/kategori/4.jpeg" class="img-fluid" alt=""></a>
+               <div class="portfolio-info">
+                 <h4><a href="portfolio-details.html" title="More Details">KKN DESA PENARI</a></h4>
+                 <p>HOROR</p>
+               </div>
+             </div>
+           </div><!-- End Portfolio Item -->
 
-          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-geo-alt"></i></div>
-              <h4 class="title"><a href="" class="stretched-link">Magni Dolores</a></h4>
-            </div>
-          </div>
-          <!--End Icon Box -->
+           <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+             <div class="portfolio-wrap">
+               <a href="assets/img/kategori/6.jpeg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/kategori/6.jpeg" class="img-fluid" alt=""></a>
+               <div class="portfolio-info">
+                 <h4><a href="portfolio-details.html" title="More Details">MENCURI RADEN SALEH</a></h4>
+                 <p>ACTION</p>
+               </div>
+             </div>
+           </div><!-- End Portfolio Item -->
 
-          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-command"></i></div>
-              <h4 class="title"><a href="" class="stretched-link">Nemo Enim</a></h4>
-            </div>
-          </div>
-          <!--End Icon Box -->
+           <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
+             <div class="portfolio-wrap">
+               <a href="assets/img/kategori/1.jpeg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/kategori/1.jpeg" class="img-fluid" alt=""></a>
+               <div class="portfolio-info">
+                 <h4><a href="portfolio-details.html" title="More Details">MENDARAT DARURAT</a></h4>
+                 <p>ROMANCE</p>
+               </div>
+             </div>
+           </div><!-- End Portfolio Item -->
 
-        </div>
-      </div>
-    </div>
+           <div class="col-xl-4 col-md-6 portfolio-item filter-books">
+             <div class="portfolio-wrap">
+               <a href="assets/img/kategori/2.jpeg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/kategori/2.jpeg" class="img-fluid" alt=""></a>
+               <div class="portfolio-info">
+                 <h4><a href="portfolio-details.html" title="More Details">12 CERITA GLEN ANGGARA</a></h4>
+                 <p>ROMANCE</p>
+               </div>
+             </div>
+           </div><!-- End Portfolio Item -->
 
-    </div>
-  </section>
-  <!-- End Hero Section -->
+           <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+             <div class="portfolio-wrap">
+               <a href="assets/img/kategori/3.jpeg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/kategori/3.jpeg" class="img-fluid" alt=""></a>
+               <div class="portfolio-info">
+                 <h4><a href="portfolio-details.html" title="More Details">SAYAP SAYAP PATAH</a></h4>
+                 <p>ROMANCE</p>
+               </div>
+             </div>
+           </div><!-- End Portfolio Item -->
+
+           <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+             <div class="portfolio-wrap">
+               <a href="assets/img/kategori/5.jpeg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/kategori/5.jpeg" class="img-fluid" alt=""></a>
+               <div class="portfolio-info">
+                 <h4><a href="portfolio-details.html" title="More Details">YOWIS BEN</a></h4>
+                 <p>COMEDY</p>
+               </div>
+             </div>
+           </div><!-- End Portfolio Item -->
+
+         </div><!-- End Portfolio Container -->
+
+       </div>
+
+     </div>
+   </section><!-- End Portfolio Section -->
