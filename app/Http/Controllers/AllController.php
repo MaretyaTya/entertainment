@@ -26,6 +26,22 @@ class AllController extends Controller
         return view('artikel');
     }
 
+    public function kontak()
+    {
+        return view('contact');
+    }
+
+    public function kategori()
+    {
+        return view('kategori');
+    }
+
+    public function kategori2()
+    {
+        return view('kategori2');
+    }
+
+
     public function index()
     {
         //

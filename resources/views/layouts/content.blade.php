@@ -23,6 +23,7 @@
 
        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
          <div class="row gy-4 portfolio-container">
+          
            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
              <div class="portfolio-wrap">
                <a href="assets/img/kategori/4.jpeg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/kategori/4.jpeg" class="img-fluid" alt=""></a>

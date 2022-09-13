@@ -21,3 +21,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/home', [AllController::class, 'home']);
 Route::get('/tentang', [AllController::class, 'tentang']);
 Route::get('/artikel', [AllController::class, 'artikel']);
+Route::get('/kontak', [AllController::class, 'kontak']);
+Route::get('/romance', [AllController::class, 'kategori']);
+Route::get('/comedy', [AllController::class, 'kategori2']);
